@@ -22,32 +22,32 @@ df = pd.DataFrame(myDict)
 print(df)
 
 # Affichage des 2 premières lignes du DataFrame
-print(df.head(2))
+print("\n\nAffichage des 2 premières lignes du DataFrame\n", df.head(2))
 
 # Affichage des 2 dernières lignes du DataFrame
-print(df.tail(2))
+print("\n\nAffichage des 2 dernières lignes du DataFrame\n", df.tail(2))
 
 # Affichage de la colonne 'name'
-print(df['name'])
+print("\n\nAffichage de la colonne 'name'\n", df['name'])
 
 # Affichage des colonnes 'name' et 'age'
-print(df[['name', 'age']])
+print("\n\nAffichage des colonnes 'name' et 'age'\n", df[['name', 'age']])
 
 # Affichage des lignes où l'âge est supérieur à 25
-print(df[df['age'] > 25])
+print("\n\nAffichage des lignes où l'âge est supérieur à 25\n", df[df['age'] > 25])
 
 # Affichage du type de données de chaque colonne
-print(df.dtypes)
+print("\n\nAffichage du type de données de chaque colonne\n", df.dtypes)
 
 # Affichage des statistiques descriptives du DataFrame
 # Cela inclut des mesures telles que la moyenne, l'écart-type, les valeurs minimales et maximales, etc.
-print(df.describe())
+print("\n\nAffichage des statistiques descriptives du DataFrame\n", df.describe())
 
 # Affichage du nombre de valeurs uniques dans la colonne 'job'
-print(df['job'].nunique())
+print("\n\nAffichage du nombre de valeurs uniques dans la colonne 'job'\n", df['job'].nunique())
 
 # Affichage des colonnes du DataFrame
-print(df.columns)
+print("\n\nAffichage des colonnes du DataFrame\n", df.columns)
 
 # Affichage de la forme du DataFrame (nombre de lignes et de colonnes)
-print(df.shape)
+print("\n\nAffichage de la forme du DataFrame (nombre de lignes et de colonnes)\n", df.shape)
