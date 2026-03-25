@@ -46,8 +46,24 @@ print("\n\nAffichage des statistiques descriptives du DataFrame\n", df.describe(
 # Affichage du nombre de valeurs uniques dans la colonne 'job'
 print("\n\nAffichage du nombre de valeurs uniques dans la colonne 'job'\n", df['job'].nunique())
 
+# Affichage des valeurs uniques dans la colonne 'job'
+print("\n\nAffichage du nombre de valeurs uniques dans la colonne 'job'\n", df['job'].unique())
+
 # Affichage des colonnes du DataFrame
 print("\n\nAffichage des colonnes du DataFrame\n", df.columns)
 
 # Affichage de la forme du DataFrame (nombre de lignes et de colonnes)
 print("\n\nAffichage de la forme du DataFrame (nombre de lignes et de colonnes)\n", df.shape)
+
+
+
+# Creer un Dataframe avec un ficher csv
+myDF = pd.read_csv('datas/etudiants.csv', sep=',')
+print(myDF)
+
+# Afficher le premier element sous forme d'objet
+print("\n\nAfficher le premier element sous forme d'objet\n", myDF.loc[0])
+
+# # Definir l'index du tableau
+# myDF.set_index(['Nom'])
+# print("\n\n", myDF)
