@@ -1,0 +1,21 @@
+ID,Nom,Prenom,Sexe,Age,Ville,Universite,Filiere,Moyenne,Telephone
+1,Nkomo,Jean,M,20,Yaoundé,Université de Yaoundé I,Informatique,14.5,237670123456
+2,Kengni,Marie,F,19,Douala,Université de Douala,Génie Civil,13.2,237691234567
+3,Fotso,Pierre,M,21,Bamenda,Université de Bamenda,Économie,12.8,237675345678
+4,Mboua,Claire,F,20,Yaoundé,Université de Yaoundé I,Mathématiques,15.1,237670456789
+5,Talla,Armand,M,22,Douala,Université de Douala,Droit,11.9,237698567890
+6,Owona,Nathalie,F,19,Yaoundé,Université de Yaoundé II,Littérature,13.7,237681678901
+7,Eyenga,Samuel,M,20,Bertoua,Université de Bertoua,Biologie,14.2,237672789012
+8,Bingono,Yvette,F,21,Yaoundé,Université de Yaoundé I,Pharmacie,15.8,237669890123
+9,Tchokouonkam,Denis,M,19,Kribi,Université de Douala,Physique,12.4,237674901234
+10,Moise,Rachelle,F,20,Limbe,Université de Buea,Chimie,14.1,237687012345
+11,Awah,Robert,M,22,Kumba,Université de Buea,Géologie,11.5,237673123456
+12,Kandem,Sophie,F,19,Yaoundé,Université de Yaoundé I,Informatique,16.3,237685234567
+13,Simo,Lucas,M,21,Douala,Université de Douala,Commerce,13.4,237676345678
+14,Bindzi,Annick,F,20,Buea,Université de Buea,Infirmerie,14.8,237688456789
+15,Njike,Patrick,M,23,Yaoundé,Université de Yaoundé I,Gestion,12.2,237679567890
+16,Tene,Jacqueline,F,20,Douala,Université de Douala,Psychologie,13.9,237682678901
+17,Zango,Victor,M,19,Ngaoundéré,Université de Ngaoundéré,Agronomie,14.6,237677789012
+18,Mendi,Florence,F,21,Yaoundé,Université de Yaoundé II,Histoire,13.1,237680890123
+19,Pounou,Guillaume,M,20,Douala,Université de Douala,Électrotechnique,15.2,237684901234
+20,Tsama,Bernadette,F,22,Ebolowa,Université de Yaoundé I,Environnement,12.7,237686012345
